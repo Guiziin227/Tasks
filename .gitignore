@@ -1,0 +1,53 @@
+# Ignore environment variable files
+.env
+.env.*
+
+# Ignore database files
+*.db
+*.sqlite
+
+# Ignore log files
+*.log
+
+# Ignore compiled binaries
+*.exe
+*.out
+*.o
+
+# Ignore Go build files
+bin/
+build/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.iml
+
+# Ignore dependency directories
+vendor/
+node_modules/
+
+# Ignore sensitive configuration files
+config.yaml
+config.json
+config.toml
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+Desktop.ini
